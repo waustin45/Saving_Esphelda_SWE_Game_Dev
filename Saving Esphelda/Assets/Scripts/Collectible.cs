@@ -11,6 +11,11 @@ public class Collectible : MonoBehaviour
             inventory.CollectibleCollected(other);
             gameObject.SetActive(false);
         }
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("hit player");
+            Destroy(gameObject);
+        }
 
     }
 }

@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1663157}
   - component: {fileID: 1663158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 24002601}
   - component: {fileID: 24002602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38495757}
   - component: {fileID: 38495758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43211841}
   - component: {fileID: 43211842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51081639}
   - component: {fileID: 51081640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54229631}
   - component: {fileID: 54229632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 75444630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75501041}
   - component: {fileID: 75501042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,7 +1620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 82325226}
   - component: {fileID: 82325227}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2348,7 +2348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105856666}
   - component: {fileID: 105856667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2893,7 +2893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127923320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2967,7 +2967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135883340}
   - component: {fileID: 135883341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3804,7 +3804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179487148}
   - component: {fileID: 179487149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4077,7 +4077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183790009}
   - component: {fileID: 183790010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4441,7 +4441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190101880}
   - component: {fileID: 190101881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5260,7 +5260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 221400684}
   - component: {fileID: 221400685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,7 +5442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231430344}
   - component: {fileID: 231430345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5715,7 +5715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243453553}
   - component: {fileID: 243453554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5988,7 +5988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255091824}
   - component: {fileID: 255091825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6878,7 +6878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 284180032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6914,7 +6914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285849423}
   - component: {fileID: 285849424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7095,7 +7095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 289971173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7624,7 +7624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 314789863}
   - component: {fileID: 314789864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7714,7 +7714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 337527992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7750,7 +7750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338939954}
   - component: {fileID: 338939955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8113,7 +8113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356509389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8148,7 +8148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358343679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8184,7 +8184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361569714}
   - component: {fileID: 361569715}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8457,7 +8457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367351795}
   - component: {fileID: 367351796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8730,7 +8730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394913499}
   - component: {fileID: 394913500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8821,7 +8821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395874372}
   - component: {fileID: 395874373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10129,7 +10129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463249711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10255,7 +10255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470852019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10296,7 +10296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473556627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10466,7 +10466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482618727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10583,6 +10583,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!224 &489324595 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8271400619828026229, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489781143
 GameObject:
   m_ObjectHideFlags: 0
@@ -10775,7 +10780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 493516437}
   - component: {fileID: 493516438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11536,7 +11541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539466945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11572,7 +11577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541887567}
   - component: {fileID: 541887568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11663,7 +11668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543085159}
   - component: {fileID: 543085160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11845,7 +11850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 552686578}
   - component: {fileID: 552686579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12027,7 +12032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557388717}
   - component: {fileID: 557388718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12956,7 +12961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607675301}
   - component: {fileID: 607675302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13459,7 +13464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 628665044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13768,7 +13773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637153709}
   - component: {fileID: 637153710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13859,7 +13864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 639830321}
   - component: {fileID: 639830322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14041,7 +14046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648297265}
   - component: {fileID: 648297266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14132,7 +14137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662338480}
   - component: {fileID: 662338481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14405,7 +14410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672352860}
   - component: {fileID: 672352861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14496,7 +14501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673671488}
   - component: {fileID: 673671489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14856,7 +14861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699166683}
   - component: {fileID: 699166684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15219,7 +15224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 707636821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15839,7 +15844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744003141}
   - component: {fileID: 744003142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16021,7 +16026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750376712}
   - component: {fileID: 750376713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16112,7 +16117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755691946}
   - component: {fileID: 755691947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16203,7 +16208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759732494}
   - component: {fileID: 759732495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16294,7 +16299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761632442}
   - component: {fileID: 761632443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16385,7 +16390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762547965}
   - component: {fileID: 762547966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16476,7 +16481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766710390}
   - component: {fileID: 766710391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16658,7 +16663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788135077}
   - component: {fileID: 788135078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16749,7 +16754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 789338579}
   - component: {fileID: 789338580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16931,7 +16936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792745299}
   - component: {fileID: 792745300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17113,7 +17118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803679170}
   - component: {fileID: 803679171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18420,7 +18425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859250942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor #3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19002,7 +19007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 882940426}
   - component: {fileID: 882940427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19092,7 +19097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 895414326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19310,7 +19315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901643796}
   - component: {fileID: 901643797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19981,7 +19986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 929044336}
   - component: {fileID: 929044337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20072,7 +20077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 931853299}
   - component: {fileID: 931853300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20212,7 +20217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941611635}
   - component: {fileID: 941611636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20484,7 +20489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947256162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20520,7 +20525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948528655}
   - component: {fileID: 948528656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20740,7 +20745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970991891}
   - component: {fileID: 970991892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20922,7 +20927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975050737}
   - component: {fileID: 975050738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21013,7 +21018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975951210}
   - component: {fileID: 975951211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21903,7 +21908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006218613}
   - component: {fileID: 1006218614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22075,6 +22080,71 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1010439312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4748
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018473855074177927, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8129843855091784912, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
+      propertyPath: m_Name
+      value: Key Collectible
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb3e0f892e78e4ec592d46c156b891ac, type: 3}
 --- !u!1 &1033661391
 GameObject:
   m_ObjectHideFlags: 0
@@ -23086,7 +23156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081585541}
   - component: {fileID: 1081585542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23531,6 +23601,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1115655022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1115655026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3352419402142659183, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115655022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ac21711b0ec40a0812d33a586eb7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1115655028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115655022}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0062790513, y: 0.32740068}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.40975899, y: 0.57121277}
+  m_EdgeRadius: 0
 --- !u!1 &1128070241
 GameObject:
   m_ObjectHideFlags: 0
@@ -24111,6 +24243,123 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1151984365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999619
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008726557
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.1922143
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.3491063
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 854379935902338597, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882372962796901745, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: wallCheck
+      value: 
+      objectReference: {fileID: 1226140836}
+    - target: {fileID: 2882372962796901745, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: ledgeCheck
+      value: 
+      objectReference: {fileID: 1829079649}
+    - target: {fileID: 2882372962796901745, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: spumScript
+      value: 
+      objectReference: {fileID: 1445566049}
+    - target: {fileID: 2882372962796901745, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135274906261526473, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472374097216646799, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+      propertyPath: m_Name
+      value: Goon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
 --- !u!1 &1154820510
 GameObject:
   m_ObjectHideFlags: 0
@@ -24666,7 +24915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1166523041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor #2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25817,7 +26066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201186717}
   - component: {fileID: 1201186718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25946,7 +26195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218251776}
   - component: {fileID: 1218251777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26063,6 +26312,11 @@ Transform:
   - {fileID: 589958747}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1226140836 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1538275648259672386, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+  m_PrefabInstance: {fileID: 1151984365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1226919820
 GameObject:
   m_ObjectHideFlags: 0
@@ -26619,7 +26873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245529196}
   - component: {fileID: 1245529197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26892,7 +27146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255877379}
   - component: {fileID: 1255877380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27165,7 +27419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1278092481}
   - component: {fileID: 1278092482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27347,7 +27601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1292671747}
   - component: {fileID: 1292671748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27519,143 +27773,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1303254779
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1303254783}
-  - component: {fileID: 1303254782}
-  - component: {fileID: 1303254781}
-  - component: {fileID: 1303254780}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1303254780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303254779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
-  m_Version: 2
---- !u!81 &1303254781
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303254779}
-  m_Enabled: 1
---- !u!20 &1303254782
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303254779}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1303254783
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303254779}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304324776
 GameObject:
   m_ObjectHideFlags: 0
@@ -28066,7 +28183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318324094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor #4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28466,7 +28583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338130643}
   - component: {fileID: 1338130644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28648,7 +28765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348682644}
   - component: {fileID: 1348682645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28739,7 +28856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352889986}
   - component: {fileID: 1352889987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29011,7 +29128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1378112755}
-  m_Layer: 0
+  - component: {fileID: 1378112756}
+  m_Layer: 6
   m_Name: Grass Floor #1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29037,6 +29155,52 @@ Transform:
   - {fileID: 127923320}
   m_Father: {fileID: 2014382264}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1378112756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378112754}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 6.256258, y: -0.19636607}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 19.75259, y: 0.60726786}
+  m_EdgeRadius: 0
 --- !u!1 &1398570297
 GameObject:
   m_ObjectHideFlags: 0
@@ -29047,7 +29211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398570298}
   - component: {fileID: 1398570299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29137,7 +29301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400628986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29613,7 +29777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436675127}
   - component: {fileID: 1436675128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29704,7 +29868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441115299}
   - component: {fileID: 1441115300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30001,6 +30165,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1445566049 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2532137828004001485, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+  m_PrefabInstance: {fileID: 1151984365}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ac21711b0ec40a0812d33a586eb7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1450706027
 GameObject:
   m_ObjectHideFlags: 0
@@ -30011,7 +30186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450706028}
   - component: {fileID: 1450706029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30283,7 +30458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1464030610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30448,7 +30623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477065601}
   - component: {fileID: 1477065602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30629,7 +30804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479849050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30665,7 +30840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480474056}
   - component: {fileID: 1480474057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31427,7 +31602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511369386}
   - component: {fileID: 1511369387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31609,7 +31784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514506346}
   - component: {fileID: 1514506347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32337,7 +32512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1566011222}
   - component: {fileID: 1566011223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32917,7 +33092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1600392900}
   - component: {fileID: 1600392901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33099,7 +33274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609623051}
   - component: {fileID: 1609623052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33315,7 +33490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617170581}
   - component: {fileID: 1617170582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33588,7 +33763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628260536}
   - component: {fileID: 1628260537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33860,7 +34035,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641513318}
-  m_Layer: 0
+  - component: {fileID: 1641513319}
+  m_Layer: 6
   m_Name: Grass Floor #6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33886,6 +34062,52 @@ Transform:
   - {fileID: 284180032}
   m_Father: {fileID: 2014382264}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1641513319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641513317}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -1.6496453, y: -0.2021451}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.2992935, y: 0.5957098}
+  m_EdgeRadius: 0
 --- !u!1 &1649758739
 GameObject:
   m_ObjectHideFlags: 0
@@ -33987,7 +34209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655896523}
   - component: {fileID: 1655896524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_23 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34920,7 +35142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719190648}
   - component: {fileID: 1719190649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35193,7 +35415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1727639408}
   - component: {fileID: 1727639409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35374,7 +35596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1736008647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35501,7 +35723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743330903}
   - component: {fileID: 1743330904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35720,7 +35942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746377299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Dirt Grass Floor '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35883,7 +36105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1754211870}
   - component: {fileID: 1754211871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36064,7 +36286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1760297416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36191,7 +36413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1763853980}
   - component: {fileID: 1763853981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36627,7 +36849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781729257}
   - component: {fileID: 1781729258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37115,7 +37337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1805740783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37691,6 +37913,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!224 &1829079649 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6629340551242127917, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+  m_PrefabInstance: {fileID: 1151984365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1834601947
 GameObject:
   m_ObjectHideFlags: 0
@@ -37792,7 +38019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835967408}
   - component: {fileID: 1835967409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37883,7 +38110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1836182501}
   - component: {fileID: 1836182502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38247,7 +38474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850897156}
   - component: {fileID: 1850897157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38429,7 +38656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852008300}
   - component: {fileID: 1852008301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38702,7 +38929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1864538494}
   - component: {fileID: 1864538495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38884,7 +39111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870090911}
   - component: {fileID: 1870090912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39430,7 +39657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881609522}
   - component: {fileID: 1881609523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39919,7 +40146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900124110}
   - component: {fileID: 1900124111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40010,7 +40237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900370209}
   - component: {fileID: 1900370210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40411,7 +40638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1909059799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor #5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40528,6 +40755,134 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1912042347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_Name
+      value: SpikePlayable
+      objectReference: {fileID: 0}
+    - target: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: jumpForce
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: spumScript
+      value: 
+      objectReference: {fileID: 1115655026}
+    - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 1938915502}
+    - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224409483316993947, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999619
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008726557
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -11.580326
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807654795039436467, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: EnemyCheck
+      value: 
+      objectReference: {fileID: 489324595}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1115655028}
+  m_SourcePrefab: {fileID: 100100000, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
 --- !u!1 &1919383044
 GameObject:
   m_ObjectHideFlags: 0
@@ -40538,7 +40893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1919383045}
   - component: {fileID: 1919383046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41133,7 +41488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932207532}
   - component: {fileID: 1932207533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41224,7 +41579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932981894}
   - component: {fileID: 1932981895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41315,7 +41670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934030227}
   - component: {fileID: 1934030228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41487,6 +41842,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!224 &1938915502 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7238360171985746524, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1938949279
 GameObject:
   m_ObjectHideFlags: 0
@@ -41679,7 +42039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1948663043}
   - component: {fileID: 1948663044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41769,7 +42129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967589076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41934,7 +42294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977725285}
   - component: {fileID: 1977725286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42024,7 +42384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1978492665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42189,7 +42549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993774999}
   - component: {fileID: 1993775000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42370,7 +42730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2009090484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42405,7 +42765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2014382264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42444,7 +42804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016824579}
   - component: {fileID: 2016824580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42659,7 +43019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019967194}
   - component: {fileID: 2019967195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43023,7 +43383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2037389762}
   - component: {fileID: 2037389763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43113,7 +43473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2039287420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grass Floor  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43513,7 +43873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062119056}
   - component: {fileID: 2062119057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44097,7 +44457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094433688}
   - component: {fileID: 2094433689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44722,7 +45082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126267328}
   - component: {fileID: 2126267329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain Sliced (16x16)_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45209,7 +45569,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1303254783}
   - {fileID: 177518036}
   - {fileID: 987182816}
   - {fileID: 2014382264}
@@ -45217,3 +45576,6 @@ SceneRoots:
   - {fileID: 1218899264}
   - {fileID: 1889140829}
   - {fileID: 2017961675}
+  - {fileID: 1912042347}
+  - {fileID: 1151984365}
+  - {fileID: 1010439312}
