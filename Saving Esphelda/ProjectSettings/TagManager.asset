@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Gem
   - Key
+  - Companion
   layers:
   - Default
   - TransparentFX
