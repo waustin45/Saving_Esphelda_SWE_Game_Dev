@@ -4,11 +4,11 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float moveSpeed = 8f;
-    public float jumpForce = 4.5f;
+    public float jumpForce = 5f;
 
     [Header("Charged Jump Settings")]
     public float chargedHoldThreshold = 5f;
-    public float chargedJumpForce = 100f;
+    public float chargedJumpForce = 10f;
     public float maxHoldTime = 10f;
 
     [Header("Detection")]
@@ -18,12 +18,17 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("References")]
     public SPUM_Prefabs spumScript;
-    public MonoBehaviour wallClimbScriptReference; // drag the WallClimbBoxCastAuto component here
+    public WallClimbBoxCastAuto wallClimbScriptReference; // drag the WallClimbBoxCastAuto component here
 
     private Rigidbody2D rb;
     private float horizontal;
     private bool isGrounded;
     private bool isMoving;
+    private WallClimbBoxCastAuto wallClimb;
+    private bool preparingJump;
+    private float holdTimer;
+    private bool groundedAtPress;
+
 
 
     void Start()
@@ -68,14 +73,17 @@ public class PlayerMovement : MonoBehaviour
         // While holding the jump button, increment the timer (only if we started preparing)
         if (preparingJump && Input.GetButton("Jump"))
         {
-            holdTimer += Time.deltaTime;
+            holdTimer += Time.deltaTime + .02f;
+            //Debug.Log(holdTimer);
             if (holdTimer > maxHoldTime) holdTimer = maxHoldTime;
+            
         }
 
         // On release: perform the jump based on how long it was held
         if (preparingJump && Input.GetButtonUp("Jump"))
         {
             bool isClimbing = wallClimb != null && wallClimb.IsClimbingPublic;
+            Debug.Log(isClimbing);
 
             // Only perform normal/charged jump if not currently climbing
             if (!isClimbing && groundedAtPress)
