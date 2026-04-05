@@ -25,13 +25,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isMoving;
 
-    // Jump preparation state
-    private bool preparingJump = false;
-    private float holdTimer = 0f;
-    private bool groundedAtPress = false;
-
-    // cached typed reference
-    private WallClimbBoxCastAuto wallClimb = null;
 
     void Start()
     {
@@ -160,4 +153,6 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
+
+    
 }
