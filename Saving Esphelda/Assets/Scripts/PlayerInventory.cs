@@ -1,23 +1,41 @@
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public int KeyCount { get; private set; } = 0;
+    public int KeyCount;
     public int MaxKeys = 3;
+    public int GemCount;
 
-    public int GemCount { get; private set; } = 0;
+    public GameObject[] keySlots;
+    public string emptyKey = "Empty";
+    public string filledKey = "Filled";
 
-    public void CollectibleCollected(Collider other)
+    void Start()
     {
-        if (other.CompareTag("Key") && KeyCount < MaxKeys)
-        {
-            KeyCount++;
-        }
+        UpdateKeyHUD();
+    }
 
-        if (other.CompareTag("Gem"))
+    public void AddKey()
+    {
+        KeyCount = Mathf.Clamp(KeyCount + 1, 0, MaxKeys);
+        UpdateKeyHUD();
+    }
+
+    private void UpdateKeyHUD()
+    {
+        for (int i = 0; i < keySlots.Length; i++)
         {
-            GemCount++;
+            if (keySlots[i] == null)
+                continue;
+
+            var filledChild = keySlots[i].transform.Find(filledKey);
+            var emptyChild = keySlots[i].transform.Find(emptyKey);
+
+            if (filledChild != null && emptyChild != null)
+            {
+                filledChild.gameObject.SetActive(i < KeyCount);
+                emptyChild.gameObject.SetActive(i >= KeyCount);
+            }
         }
     }
 }
