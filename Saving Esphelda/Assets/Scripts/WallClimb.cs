@@ -5,7 +5,7 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 {
     [Header("Detection")]
     public LayerMask wallLayer;                 // set to your Wall layer in inspector
-    public Collider2D playerCollider;          // optional: will auto-find if left empty
+    public BoxCollider2D playerCollider;          // optional: will auto-find if left empty
     [Tooltip("How far from the player's side to check for a wall")]
     public float checkDistance = 0.08f;
     [Tooltip("Shrink factor for the boxcast size relative to the player's collider bounds")]
@@ -36,7 +36,7 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 
         if (playerCollider == null)
         {
-            playerCollider = GetComponent<Collider2D>();
+            playerCollider = GetComponent<BoxCollider2D>();
             if (playerCollider == null)
             {
                 Debug.LogError("WallClimbBoxCastAuto requires a Collider2D on the player or assign one in inspector.");
