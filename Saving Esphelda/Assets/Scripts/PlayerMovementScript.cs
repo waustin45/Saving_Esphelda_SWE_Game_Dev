@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isMoving;
 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -76,4 +77,6 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
+
+    
 }
