@@ -20,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     public SPUM_Prefabs spumScript;
     public WallClimbBoxCastAuto wallClimbScriptReference; // drag the WallClimbBoxCastAuto component here
 
+    [Header("Audio")]
+    public AudioSource walkingSounds;
+    public AudioSource LandSounds;
+
     private Rigidbody2D rb;
     private float horizontal;
     private bool isGrounded;
@@ -28,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     private bool preparingJump;
     private float holdTimer;
     private bool groundedAtPress;
+    private bool wasGrounded;
 
 
 
@@ -53,8 +58,23 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        bool shouldPlayWalking = isGrounded && Mathf.Abs(horizontal) > 0.1f;
+        if (shouldPlayWalking && !walkingSounds.isPlaying)
+        {
+            walkingSounds.Play();
+        }
+        else if (!shouldPlayWalking && walkingSounds.isPlaying)
+        {
+            walkingSounds.Stop();
+        }
 
         // Begin preparing a jump when the player presses Jump while grounded
+        if (!wasGrounded && isGrounded)
+        {
+            LandSounds.Play();
+        }
+        wasGrounded = isGrounded;
+
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)

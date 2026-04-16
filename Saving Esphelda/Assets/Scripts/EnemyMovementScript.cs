@@ -9,15 +9,21 @@ public class EnemyMovementScript : MonoBehaviour
     [Header("Detection")]
     public Transform wallCheck;
     public Transform ledgeCheck;
+    public Transform groundCheck;
     public float detectionRadius = 0.2f;
     public LayerMask groundLayer;
 
     [Header("References")]
     public SPUM_Prefabs spumScript;
 
+    [Header("Audio")]
+    public AudioSource walkingSounds;
+
+
     private Rigidbody2D rb;
     private float flipCooldown = 0.75f; // Prevents rapid jittering
     private float lastFlipTime;
+    private bool isGrounded;
 
     void Start()
     {
@@ -32,6 +38,14 @@ public class EnemyMovementScript : MonoBehaviour
 
     void FixedUpdate()
     {
+        isGrounded = groundCheck != null && Physics2D.OverlapCircle(groundCheck.position, detectionRadius, groundLayer);
+
+        bool shouldPlayWalking = isGrounded && Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        if (shouldPlayWalking && !walkingSounds.isPlaying)
+            walkingSounds.Play();
+        else if (!shouldPlayWalking && walkingSounds.isPlaying)
+            walkingSounds.Stop();
+
         // 1. Detection
         bool hitWall = Physics2D.OverlapCircle(wallCheck.position, detectionRadius, groundLayer);
         bool hitLedge = !Physics2D.OverlapCircle(ledgeCheck.position, detectionRadius, groundLayer);
