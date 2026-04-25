@@ -25814,29 +25814,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.40975899, y: 0.57121277}
   m_EdgeRadius: 0
---- !u!114 &1115655035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115655022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d105f0158592b94d9dea8e87b702249, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WallClimbBoxCastAuto
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  playerCollider: {fileID: 0}
-  checkDistance: 0.08
-  boxSizeShrink: 0.528
-  climbSpeed: 1.5
-  climbSmoothing: 10
-  requireUpToClimb: 1
-  debugDraw: 1
-  IsClimbingPublic: 0
 --- !u!224 &1115655039 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
@@ -45027,6 +45004,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2362709388053303188, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: playerCollider
+      value: 
+      objectReference: {fileID: 1115655028}
+    - target: {fileID: 2362709388053303188, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       propertyPath: jumpForce
       value: 5
@@ -45190,9 +45175,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 378138421}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 1115655035}
     - targetCorrespondingSourceObject: {fileID: 780326568288812357, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1115655028}
@@ -47396,11 +47378,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514086792812253382, guid: 24bc7e5fdeb164a76b940de2933bd1ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 257.2637
+      value: 257.694
       objectReference: {fileID: 0}
     - target: {fileID: 1514086792812253382, guid: 24bc7e5fdeb164a76b940de2933bd1ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 149.17737
+      value: 149.471
       objectReference: {fileID: 0}
     - target: {fileID: 1514086792812253382, guid: 24bc7e5fdeb164a76b940de2933bd1ca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47438,6 +47420,14 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 459353347}
+    - target: {fileID: 3863071145556325466, guid: 24bc7e5fdeb164a76b940de2933bd1ca, type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 459353347}
+    - target: {fileID: 8095262318562439188, guid: 24bc7e5fdeb164a76b940de2933bd1ca, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

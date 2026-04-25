@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Audio")]
     public AudioSource walkingSounds;
     public AudioSource LandSounds;
+    public AudioSource JumpSounds;
+
 
     private Rigidbody2D rb;
     private float horizontal;
@@ -103,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
         if (preparingJump && Input.GetButtonUp("Jump"))
         {
             bool isClimbing = wallClimb != null && wallClimb.IsClimbingPublic;
-            Debug.Log(isClimbing);
+            
 
             // Only perform normal/charged jump if not currently climbing
             if (!isClimbing && groundedAtPress)
@@ -117,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
-
+            JumpSounds.Play();
             preparingJump = false;
             holdTimer = 0f;
             groundedAtPress = false;

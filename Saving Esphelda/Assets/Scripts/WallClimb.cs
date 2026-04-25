@@ -19,6 +19,8 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 
     [Header("Debug")]
     public bool debugDraw = true;
+    [Header("Audio")]
+    public AudioSource ClimbSounds;
 
     private Rigidbody2D rb;
     private float originalGravity;
@@ -59,6 +61,14 @@ public class WallClimbBoxCastAuto : MonoBehaviour
             targetVerticalVelocity = Mathf.Clamp(verticalInput, -1f, 1f) * climbSpeed;
             rb.gravityScale = 0f;
             IsClimbingPublic = true;
+            if (IsClimbingPublic && !ClimbSounds.isPlaying)
+            {
+                ClimbSounds.Play();
+            }
+            else if (!IsClimbingPublic && ClimbSounds.isPlaying)
+            {
+                ClimbSounds.Stop();
+            }
         }
         else
         {
