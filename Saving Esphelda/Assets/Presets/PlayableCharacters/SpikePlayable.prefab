@@ -441,6 +441,8 @@ GameObject:
   - component: {fileID: 2572887788248972986}
   - component: {fileID: 6224409483316993947}
   - component: {fileID: 8807654795039436467}
+  - component: {fileID: 4152635377966611816}
+  - component: {fileID: 61931033138928069}
   m_Layer: 5
   m_Name: SpikePlayable
   m_TagString: Untagged
@@ -3502,6 +3504,42 @@ MonoBehaviour:
   EnemyCheck: {fileID: 0}
   detectionRadius: 0.3
   bounceForce: 12
+--- !u!114 &4152635377966611816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780326568288812357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4c260c362dc4a4c9ff86687fa510d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  healthBar: {fileID: 0}
+  maxHealth: 10
+  currentHealth: 10
+--- !u!114 &61931033138928069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780326568288812357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574f4e733fe3641cb8ca804622192579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
+  KeyCount: 0
+  MaxKeys: 3
+  GemCount: 0
+  keySlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  emptyKey: Empty
+  filledKey: Filled
 --- !u!1 &789665180598803570
 GameObject:
   m_ObjectHideFlags: 0

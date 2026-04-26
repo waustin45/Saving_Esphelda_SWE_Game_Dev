@@ -8,7 +8,7 @@ public class KeyCollectible : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Collectible collected!");
-            inventory.KeyCount++;
+            inventory.AddKey();
             Destroy(gameObject);
         }
     }
