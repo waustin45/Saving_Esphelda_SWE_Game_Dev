@@ -5,7 +5,7 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 {
     [Header("Detection")]
     public LayerMask wallLayer;                 // set to your Wall layer in inspector
-    public BoxCollider2D playerCollider;          // optional: will auto-find if left empty
+    private BoxCollider2D playerCollider;          // optional: will auto-find if left empty
     [Tooltip("How far from the player's side to check for a wall")]
     public float checkDistance = 0.08f;
     [Tooltip("Shrink factor for the boxcast size relative to the player's collider bounds")]
@@ -19,6 +19,8 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 
     [Header("Debug")]
     public bool debugDraw = true;
+    [Header("Audio")]
+    public AudioSource ClimbSounds;
 
     private Rigidbody2D rb;
     private float originalGravity;
@@ -59,6 +61,14 @@ public class WallClimbBoxCastAuto : MonoBehaviour
             targetVerticalVelocity = Mathf.Clamp(verticalInput, -1f, 1f) * climbSpeed;
             rb.gravityScale = 0f;
             IsClimbingPublic = true;
+            if (IsClimbingPublic && !ClimbSounds.isPlaying)
+            {
+                ClimbSounds.Play();
+            }
+            else if (!IsClimbingPublic && ClimbSounds.isPlaying)
+            {
+                ClimbSounds.Stop();
+            }
         }
         else
         {

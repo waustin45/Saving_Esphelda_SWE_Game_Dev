@@ -20,6 +20,12 @@ public class PlayerMovement : MonoBehaviour
     public SPUM_Prefabs spumScript;
     public WallClimbBoxCastAuto wallClimbScriptReference; // drag the WallClimbBoxCastAuto component here
 
+    [Header("Audio")]
+    public AudioSource walkingSounds;
+    public AudioSource LandSounds;
+    public AudioSource JumpSounds;
+
+
     private Rigidbody2D rb;
     private float horizontal;
     private bool isGrounded;
@@ -28,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     private bool preparingJump;
     private float holdTimer;
     private bool groundedAtPress;
+    private bool wasGrounded;
 
 
 
@@ -53,8 +60,23 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        bool shouldPlayWalking = isGrounded && Mathf.Abs(horizontal) > 0.1f;
+        if (shouldPlayWalking && !walkingSounds.isPlaying)
+        {
+            walkingSounds.Play();
+        }
+        else if (!shouldPlayWalking && walkingSounds.isPlaying)
+        {
+            walkingSounds.Stop();
+        }
 
         // Begin preparing a jump when the player presses Jump while grounded
+        if (!wasGrounded && isGrounded)
+        {
+            LandSounds.Play();
+        }
+        wasGrounded = isGrounded;
+
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
@@ -83,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
         if (preparingJump && Input.GetButtonUp("Jump"))
         {
             bool isClimbing = wallClimb != null && wallClimb.IsClimbingPublic;
-            Debug.Log(isClimbing);
+            
 
             // Only perform normal/charged jump if not currently climbing
             if (!isClimbing && groundedAtPress)
@@ -97,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 }
             }
-
+            JumpSounds.Play();
             preparingJump = false;
             holdTimer = 0f;
             groundedAtPress = false;
@@ -162,5 +184,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D trigger)
+    {
+        if (SceneController.Instance.CurrentGameState != SceneController.GameState.Active) return;
+        if (trigger.gameObject.CompareTag("Checkpoint"))
+        {
+            Debug.Log("Checkpoint detected!");
+            SceneController.Instance.SetGameState(SceneController.GameState.Complete);
+        }
+    }
     
 }

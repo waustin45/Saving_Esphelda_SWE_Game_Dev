@@ -8,6 +8,8 @@ public class KillEnemyScript : MonoBehaviour
 
     [Header("Settings")]
     public float bounceForce = 12f;
+    [Header("Audio")]
+    public AudioSource HitEnemySound;
 
     private Rigidbody2D rb;
 
@@ -56,6 +58,7 @@ public class KillEnemyScript : MonoBehaviour
         if (patrol != null) patrol.enabled = false;
 
         // Destroy the object after a short delay so the death animation plays
+        HitEnemySound.Play();
         Destroy(enemy, 1.5f);
         
         Debug.Log("Stomped " + enemy.name);

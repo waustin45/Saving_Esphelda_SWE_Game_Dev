@@ -8,6 +8,8 @@ TagManager:
   - Gem
   - Key
   - Companion
+  - Checkpoint
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -42,11 +44,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Background
     uniqueID: 2125030829
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Ground
+    uniqueID: 1418714237
+    locked: 0
+  - name: Player
+    uniqueID: 172430055
     locked: 0
   m_RenderingLayers:
   - Default
