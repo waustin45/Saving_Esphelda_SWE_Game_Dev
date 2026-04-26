@@ -8,6 +8,7 @@ TagManager:
   - Gem
   - Key
   - Companion
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
