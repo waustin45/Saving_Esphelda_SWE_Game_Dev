@@ -2325,9 +2325,10 @@ GameObject:
   - component: {fileID: 142912000621691017}
   - component: {fileID: 3135274906261526473}
   - component: {fileID: 2882372962796901745}
+  - component: {fileID: 7089006331784466122}
   m_Layer: 5
   m_Name: Goon
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2339,7 +2340,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5472374097216646799}
-  m_LocalRotation: {x: -0, y: 0.008726557, z: -0, w: 0.9999619}
+  m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0.00015256465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5396,6 +5397,22 @@ MonoBehaviour:
   detectionRadius: 0.2
   groundLayer:
     serializedVersion: 2
+    m_Bits: 64
+  spumScript: {fileID: 2532137828004001485}
+--- !u!114 &7089006331784466122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472374097216646799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e89cb08aa0f4a85baacd0a7575c8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  playerHealth: {fileID: 0}
+  damage: 0
     m_Bits: 64
   spumScript: {fileID: 2532137828004001485}
   walkingSounds: {fileID: 8794039791071414413}
