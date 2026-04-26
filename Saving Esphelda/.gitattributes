@@ -1,0 +1,20 @@
+# Unity YAML files
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.meta merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+
+# Binary files - no merging, take one version
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.dll binary
+*.psd binary
+*.pdf binary
+*.unitypackage binary
