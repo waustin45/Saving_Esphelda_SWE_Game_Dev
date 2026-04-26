@@ -5376,7 +5376,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2882372962796901745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5399,6 +5399,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   spumScript: {fileID: 2532137828004001485}
+  walkingSounds: {fileID: 8794039791071414413}
 --- !u!114 &7089006331784466122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5413,9 +5414,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 0}
   damage: 0
-    m_Bits: 64
-  spumScript: {fileID: 2532137828004001485}
-  walkingSounds: {fileID: 8794039791071414413}
 --- !u!1 &5491024743367875589
 GameObject:
   m_ObjectHideFlags: 0
