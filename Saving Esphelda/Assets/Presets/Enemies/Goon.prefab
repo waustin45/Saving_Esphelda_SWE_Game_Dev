@@ -2329,6 +2329,7 @@ GameObject:
   m_Layer: 5
   m_Name: Goon
   m_TagString: Enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5389,7 +5390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f90ab038f3e26f84ba825f9dad978925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovementScript
-  moveSpeed: 3
+  moveSpeed: 1.5
   movingRight: 1
   wallCheck: {fileID: 1538275648259672386}
   ledgeCheck: {fileID: 6629340551242127917}
