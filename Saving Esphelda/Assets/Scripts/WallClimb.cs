@@ -5,7 +5,7 @@ public class WallClimbBoxCastAuto : MonoBehaviour
 {
     [Header("Detection")]
     public LayerMask wallLayer;                 // set to your Wall layer in inspector
-    public BoxCollider2D playerCollider;          // optional: will auto-find if left empty
+    private BoxCollider2D playerCollider;          // optional: will auto-find if left empty
     [Tooltip("How far from the player's side to check for a wall")]
     public float checkDistance = 0.08f;
     [Tooltip("Shrink factor for the boxcast size relative to the player's collider bounds")]
