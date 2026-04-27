@@ -5885,7 +5885,7 @@ Transform:
   m_LocalScale: {x: 0.37274432, y: 0.36537802, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1929593315}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &382864136
 SpriteRenderer:
@@ -26479,6 +26479,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+--- !u!224 &1779911738 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7238360171985746524, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1912042347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26522,7 +26527,7 @@ PrefabInstance:
     - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       propertyPath: groundCheck
       value: 
-      objectReference: {fileID: 1938915502}
+      objectReference: {fileID: 1779911738}
     - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       propertyPath: allowWallSlide
       value: 0
@@ -29435,3 +29440,4 @@ SceneRoots:
   - {fileID: 2104351495}
   - {fileID: 1645551690}
   - {fileID: 8712579989823490251}
+  - {fileID: 382864135}

@@ -22,6 +22,6 @@ public class MenuSceneManager : MonoBehaviour
     }
     public void LoadGameMap()
     {
-        SceneManager.LoadScene("GameMap");
+        SceneManager.LoadScene("Overworld");
     }
 }
