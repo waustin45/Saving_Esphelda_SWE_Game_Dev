@@ -4,6 +4,11 @@ using UnityEngine.SceneManagement;
 public class MenuSceneManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Awake()
+    {
+        SaveManager.InitializeSave();
+    }
     public void LoadTutorialQuestionScene()
     {
         SceneManager.LoadScene("TutorialQuestionScene");

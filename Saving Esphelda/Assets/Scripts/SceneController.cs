@@ -55,7 +55,7 @@ public class SceneController : MonoBehaviour
         if (nextIndex < SceneManager.sceneCountInBuildSettings)
         {
             Debug.Log($"Loading next scene: {nextIndex}");
-            SceneManager.LoadScene(nextIndex);
+            SceneManager.LoadScene(3);
         }
         else
         {
