@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelEndManager : MonoBehaviour
 {
+    [SerializeField] PlayerInventory PlayerInventory;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,11 +19,16 @@ public class LevelEndManager : MonoBehaviour
 
     void OnTriggerE2D(Collider2D collision)
     {
-        Debug.Log("player hit");
+        Debug.Log("player hits");
         if (collision.gameObject.CompareTag("Player"))
         {
+            var data = SaveManager.Load(PlayerPrefs.GetInt("SaveSlot"));
+            data.keys = PlayerInventory.KeyCount;
+            data.gems = PlayerInventory.GemCount;
             var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SaveManager.SaveLevelCompleted(currentSceneIndex);
+            data.nextLevel = currentSceneIndex + 1;
+            data.levelsCompleted.Add(currentSceneIndex);
+            SaveManager.Save(PlayerPrefs.GetInt("SaveSlot"), data);
         }
     }
 }

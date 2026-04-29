@@ -7,7 +7,7 @@ public class MenuSceneManager : MonoBehaviour
 
     void Awake()
     {
-        SaveManager.InitializeSave();
+        
     }
     public void LoadTutorialQuestionScene()
     {
@@ -28,5 +28,10 @@ public class MenuSceneManager : MonoBehaviour
     public void LoadGameMap()
     {
         SceneManager.LoadScene("Overworld");
+    }
+    public void LoadSaveSlotScene()
+    {
+        SceneManager.LoadScene("SaveSlots");
+
     }
 }

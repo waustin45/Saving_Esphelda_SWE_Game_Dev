@@ -2,7 +2,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public static class SaveManager
+public static class SaveManagerPrefs
 {
     public static void SaveCurrency(int keys, int gems)
     {
