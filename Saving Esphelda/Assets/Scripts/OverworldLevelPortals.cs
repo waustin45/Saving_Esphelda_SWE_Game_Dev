@@ -10,7 +10,7 @@ public class OverworldLevelPortals : MonoBehaviour
 
 
 
-    void Awake()
+    void Start()
     {
         data = SaveManager.Load(PlayerPrefs.GetInt("SaveSlot"));
         Debug.Log(data.nextLevel);

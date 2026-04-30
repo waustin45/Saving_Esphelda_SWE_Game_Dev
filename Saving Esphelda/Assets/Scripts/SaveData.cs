@@ -13,7 +13,7 @@ public class SaveData
 public static class SaveManager
 {
     private static string SavePath(int slot) => 
-        Application.persistentDataPath + "/save_slot_" + slot + "/json";
+        Application.persistentDataPath + "/save_slot_" + slot + ".json";
 
     public static void Save(int slot, SaveData data)
     {
@@ -24,14 +24,18 @@ public static class SaveManager
     public static SaveData Load(int slot)
     {
         string path = SavePath(slot);
+        Debug.Log(path + " this is the path from  overworld");
+        Debug.Log("File exists: " + File.Exists(path));
 
         if (File.Exists(path))
         {
             string json = File.ReadAllText(path);
+            Debug.Log("JSON contents: " + json);
             return JsonUtility.FromJson<SaveData>(json);
         }
 
         // Return fresh save data if no file exists
+        Debug.Log("No save found, returning new save");
         return CreateNewSave();
     }
     // ---- Check if slot has a save ----
