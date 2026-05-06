@@ -463,7 +463,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
   m_LocalPosition: {x: 0, y: 0, z: 0.00015256465}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7039862947426437095}
   - {fileID: 7238360171985746524}
@@ -3460,9 +3460,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 3
-  jumpForce: 5
+  jumpForce: 8
   chargedHoldThreshold: 5
-  chargedJumpForce: 10
+  chargedJumpForce: 12
   maxHoldTime: 10
   groundCheck: {fileID: 7238360171985746524}
   groundLayer:
@@ -3852,7 +3852,7 @@ Transform:
   m_GameObject: {fileID: 1005582631564861538}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.008726557, z: 0, w: 0.9999619}
-  m_LocalPosition: {x: -0.04, y: 0.68, z: -1}
+  m_LocalPosition: {x: -0.04, y: 0.68, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7629,8 +7629,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5984300380946094306}
   - {fileID: 7101119511718264118}

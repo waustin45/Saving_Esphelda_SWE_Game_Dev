@@ -13,18 +13,49 @@ public class KeyCollectible : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && !IsCollected)
         {
+            if (inventory == null)
+            {
+                Debug.LogWarning("KeyCollectible: inventory reference is not set.");
+                return;
+            }
+
             Debug.Log("Collectible collected!");
-            inventory.KeyCount++;
+            inventory.AddKey();
             IsCollected = true;
-            StartCoroutine(PlayAndDestroy());
+
+            //hide the key immediately so it appears collected faster.
+            SetCollectedVisualState();
+            PlayCollectSound();
+
+            Destroy(gameObject, 0.1f);
         }
     }
 
-    IEnumerator PlayAndDestroy()
+    private void SetCollectedVisualState()
     {
-        CollectSound.Play();
-        yield return new WaitWhile(() => CollectSound.isPlaying);
-        Destroy(gameObject);
+        foreach (var renderer in GetComponentsInChildren<Renderer>())
+        {
+            renderer.enabled = false;
+        }
+
+        foreach (var collider in GetComponents<Collider2D>())
+        {
+            collider.enabled = false;
+        }
+
+        foreach (var collider in GetComponents<Collider>())
+        {
+            collider.enabled = false;
+        }
+    }
+
+    private void PlayCollectSound()
+    {
+        if (CollectSound == null || CollectSound.clip == null)
+            return;
+
+        AudioSource.PlayClipAtPoint(CollectSound.clip, transform.position);
     }
 }
+
 

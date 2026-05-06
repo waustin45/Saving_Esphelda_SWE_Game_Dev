@@ -1,5 +1,7 @@
 using System;
+using Unity.VectorGraphics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -8,11 +10,18 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     public int currentHealth;
 
+    PlayerDeath PlayerDeath;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentHealth = maxHealth; 
+        currentHealth = maxHealth;
+        PlayerDeath = GetComponent<PlayerDeath>();
+        if (PlayerDeath == null)
+        {
+            Debug.LogWarning("PlayerHealth: PlayerDeath component not found on this GameObject.");
+        }
     }
 
     // Update is called once per frame
@@ -28,11 +37,21 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        }
 
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            if (PlayerDeath != null)
+            {
+                PlayerDeath.KillPlayer();
+            }
+            else
+            {
+                Debug.LogError("PlayerHealth: PlayerDeath component is null. Cannot kill player.");
+            }
         } 
     }
 
@@ -41,6 +60,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += healAmount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); //makes sure health doesn't exceed maximum health
         
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        if (healthBar != null)
+        {
+            healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        }
     }
 }

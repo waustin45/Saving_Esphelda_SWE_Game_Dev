@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class PlayerDeath : MonoBehaviour
@@ -16,7 +17,7 @@ public class PlayerDeath : MonoBehaviour
     {
         // Play death animation via SPUM_Prefabs if present
         var spum = GetComponentInChildren<SPUM_Prefabs>();
-        if (spum != null) spum.PlayAnimation(PlayerState.DEATH, 0);
+        if (spum != null) spum.PlayAnimation(PlayerState.DEATH, 0); 
 
         // Disable player control
         if (playerController != null) playerController.enabled = false;
@@ -31,5 +32,7 @@ public class PlayerDeath : MonoBehaviour
 
         // Optional: notify GameManager or start respawn coroutine here
         Debug.Log("PlayerDeath.KillPlayer called");
+        SceneController.Instance.HandlePlayerDeath(); 
     }
+
 }

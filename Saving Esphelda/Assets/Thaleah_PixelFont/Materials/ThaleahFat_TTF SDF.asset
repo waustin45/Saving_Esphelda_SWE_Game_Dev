@@ -47,8 +47,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Ambient: 0.5
-    - _Bevel: 0.398
-    - _BevelClamp: 0.088
+    - _Bevel: 0.646
+    - _BevelClamp: 0.173
     - _BevelOffset: 0.043
     - _BevelRoundness: 0.532
     - _BevelWidth: 0.119
