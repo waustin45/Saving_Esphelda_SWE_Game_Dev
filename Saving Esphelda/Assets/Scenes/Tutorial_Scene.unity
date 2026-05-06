@@ -26418,6 +26418,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2c1e25536164c5448532922e98dcfa6, type: 3}
+--- !u!224 &1779911738 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7238360171985746524, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+  m_PrefabInstance: {fileID: 1912042347}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1912042347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26461,7 +26466,7 @@ PrefabInstance:
     - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       propertyPath: groundCheck
       value: 
-      objectReference: {fileID: 7238360171162683703}
+      objectReference: {fileID: 1779911738}
     - target: {fileID: 2572887788248972986, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
       propertyPath: allowWallSlide
       value: 0

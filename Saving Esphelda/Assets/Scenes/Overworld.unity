@@ -846,6 +846,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!4 &644695159313835117
 Transform:
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196265700813275849, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807654795039436467, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+      propertyPath: EnemyCheck
+      value: 
+      objectReference: {fileID: 1293100989}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 4946588982499951364, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+    - {fileID: 4892886122309952151, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+    - {fileID: 8900496047250056611, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24ac134686c108a47ad5a03756f08fb7, type: 3}
+--- !u!1001 &4098491015562255156
+PrefabInstance:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
