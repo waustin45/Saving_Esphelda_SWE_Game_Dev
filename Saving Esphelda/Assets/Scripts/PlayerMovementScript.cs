@@ -186,11 +186,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D trigger)
     {
+        if (SceneController.Instance == null)
+        {
+            Debug.LogWarning("PlayerMovementScript: SceneController.Instance is null in OnTriggerEnter2D.");
+            return;
+        }
+
         if (SceneController.Instance.CurrentGameState != SceneController.GameState.Active) return;
+
         if (trigger.gameObject.CompareTag("Checkpoint"))
         {
             Debug.Log("Checkpoint detected!");
-            SceneController.Instance.SetGameState(SceneController.GameState.Complete);
+            SceneController.Instance.LoadOverworldFromLevel();
         }
     }
     

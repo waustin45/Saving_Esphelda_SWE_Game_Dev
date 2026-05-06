@@ -20,8 +20,8 @@ public class MenuSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("Tutorial_Scene");
     }
-    public void LoadGameMap()
+    public void LoadOverworld()
     {
-        SceneManager.LoadScene("GameMap");
+        SceneManager.LoadScene("Overworld");
     }
 }
