@@ -10,6 +10,9 @@ TagManager:
   - Companion
   - Checkpoint
   - Trap
+  - L1 Portal
+  - L2 Portal
+  - L3 Portal
   layers:
   - Default
   - TransparentFX

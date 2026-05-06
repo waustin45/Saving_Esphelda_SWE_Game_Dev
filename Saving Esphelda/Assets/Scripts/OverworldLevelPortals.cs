@@ -31,6 +31,10 @@ public class OverworldLevelPortals : MonoBehaviour
     {
         if(!data.levelsCompleted.Contains(index) && data.nextLevel != index) return;
         Debug.Log($"Clicked on {gameObject.name}. Loading scene: {sceneToLoad}");
+        if (SceneController.Instance != null)
+        {
+            SceneController.Instance.SetPreviousScene(SceneManager.GetActiveScene().name);
+        }
         SceneManager.LoadScene(sceneToLoad);
     }
 

@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.3018868, b: 0.11515269, a: 1}
+  m_Color: {r: 0, g: 0.5471698, b: 0.20607695, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 7270111471963786532}
   - component: {fileID: 180798650574985316}
   - component: {fileID: 8015897310341258508}
+  - component: {fileID: 2346552136387605225}
   m_Layer: 5
   m_Name: HUD-Canvas
   m_TagString: Untagged
@@ -417,6 +418,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2346552136387605225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083411971344836908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a0222af9acf455c8368218f9dda74b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HUDManager
+  levelNameText: {fileID: 7560274576528837815}
 --- !u!1 &6808054741835855586
 GameObject:
   m_ObjectHideFlags: 0
