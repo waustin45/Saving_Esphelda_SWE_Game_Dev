@@ -25,9 +25,16 @@ public class LevelEndManager : MonoBehaviour
             var slot = PlayerPrefs.GetInt("SaveSlot");
             Debug.Log(slot + " this is save from finishing level");
             var data = SaveManager.Load(slot);
+            if (data == null)
+            {
+                Debug.LogError("SaveManager.Load returned null for slot: " + slot);
+                return;
+            }
             data.keys += PlayerInventory.KeyCount;
             data.gems += PlayerInventory.GemCount;
             var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            var sceneName = SceneManager.GetActiveScene().name;
+            if (sceneName == "Tutorial_Level") currentSceneIndex = 3;
             data.nextLevel = currentSceneIndex + 1;
             if (!data.levelsCompleted.Contains(currentSceneIndex))
             {

@@ -18,13 +18,17 @@ public class OverworldLevelPortals : MonoBehaviour
 
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
 
-        if (data.levelsCompleted.Contains(index) || data.nextLevel == index)
+        if (data.nextLevel == index)
         {
             sr.color = new Color32(47, 0, 111, 255); // unlocked color
         }
         else
         {
             sr.color = new Color32(255, 57, 65, 255); // locked color
+        }
+        if (data.levelsCompleted.Contains(index) && data.nextLevel != index)
+        {
+            sr.color = new Color32(57, 255, 65, 255);
         }
     }
     private void OnMouseDown()

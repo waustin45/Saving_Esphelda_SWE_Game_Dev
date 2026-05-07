@@ -23,7 +23,7 @@ public class MenuSceneManager : MonoBehaviour
     }
     public void LoadTutorialScene()
     {
-        SceneManager.LoadScene("Tutorial_Scene");
+        SceneManager.LoadScene("Tutorial_Level");
     }
     public void LoadOverworld()
     {
