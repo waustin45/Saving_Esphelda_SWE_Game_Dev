@@ -56,8 +56,19 @@ public class SceneController : MonoBehaviour
 
     private void HandleCompleteState()
     {
-        previousScene = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene("Overworld");
+        int index = SceneManager.GetActiveScene().buildIndex;
+        int nextIndex = index + 1;
+
+        if (nextIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.Log($"Loading next scene: {nextIndex}");
+            SceneManager.LoadScene(3);
+        }
+        else
+        {
+            Debug.Log("No more scenes to load. Returning to main menu.");
+            SceneManager.LoadScene(0);
+        }
     }
 
     private void Awake()

@@ -4,6 +4,11 @@ using UnityEngine.SceneManagement;
 public class MenuSceneManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Awake()
+    {
+        
+    }
     public void LoadTutorialQuestionScene()
     {
         SceneManager.LoadScene("TutorialQuestionScene");
@@ -18,10 +23,15 @@ public class MenuSceneManager : MonoBehaviour
     }
     public void LoadTutorialScene()
     {
-        SceneManager.LoadScene("Tutorial_Scene");
+        SceneManager.LoadScene("Tutorial_Level");
     }
     public void LoadOverworld()
     {
         SceneManager.LoadScene("Overworld");
+    }
+    public void LoadSaveSlotScene()
+    {
+        SceneManager.LoadScene("SaveSlots");
+
     }
 }
