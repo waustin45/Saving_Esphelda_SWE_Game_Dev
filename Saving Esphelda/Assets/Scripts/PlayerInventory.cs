@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -13,11 +14,25 @@ public class PlayerInventory : MonoBehaviour
 
     private const string KeyCountPref = "PlayerKeyCount";
     private const string GemCountPref = "PlayerGemCount";
+    private static PlayerInventory instance;
+    private static HashSet<string> collectedKeys = new HashSet<string>();
 
     private void Awake()
     {
-        //reset inventory at game start (tutorial scene), load from prefs on level transitions
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+
         string currentScene = SceneManager.GetActiveScene().name;
+
+        Debug.Log($"Inventory Awake in {currentScene}");
+
+        //only reset on actual new game scenes
         if (currentScene == "Tutorial_Scene" || currentScene == "TutorialQuestionScene")
         {
             ResetInventoryData();
@@ -51,13 +66,46 @@ public class PlayerInventory : MonoBehaviour
     {
         PlayerPrefs.SetInt(KeyCountPref, KeyCount);
         PlayerPrefs.SetInt(GemCountPref, GemCount);
+
+        //save to JSON
+        int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+        var data = SaveManager.Load(slot);
+
+        data.keys = KeyCount;
+        data.gems = GemCount;
+
+        SaveManager.Save(slot, data);
+
         PlayerPrefs.Save();
     }
 
     public void LoadInventory()
     {
-        KeyCount = Mathf.Clamp(PlayerPrefs.GetInt(KeyCountPref, 0), 0, MaxKeys);
-        GemCount = Mathf.Max(PlayerPrefs.GetInt(GemCountPref, 0), 0);
+        int slot = PlayerPrefs.GetInt("SaveSlot", 1);
+        var data = SaveManager.Load(slot);
+
+        //prefer JSON if it exists
+        if (data != null)
+        {
+            KeyCount = Mathf.Clamp(data.keys, 0, MaxKeys);
+            GemCount = Mathf.Max(data.gems, 0);
+        }
+        else
+        {
+            KeyCount = Mathf.Clamp(PlayerPrefs.GetInt(KeyCountPref, 0), 0, MaxKeys);
+            GemCount = Mathf.Max(PlayerPrefs.GetInt(GemCountPref, 0), 0);
+        }
+
+        Debug.Log($"LoadInventory: KeyCount={KeyCount}, GemCount={GemCount}");
+    }
+    public static bool HasCollectedKey(string id)
+    {
+        return collectedKeys.Contains(id);
+    }
+
+    public static void MarkKeyCollected(string id)
+    {
+        collectedKeys.Add(id);
     }
 
     private void ResetInventoryData()
@@ -65,6 +113,7 @@ public class PlayerInventory : MonoBehaviour
         KeyCount = 0;
         GemCount = 0;
         SaveInventory();
+        Debug.Log($"ResetInventoryData: KeyCount set to {KeyCount}");
     }
 
     public void ResetInventory()
@@ -88,12 +137,13 @@ public class PlayerInventory : MonoBehaviour
             var filledChild = keySlots[i].transform.Find(filledKey);
             var emptyChild = keySlots[i].transform.Find(emptyKey);
 
-            if (filledChild != null && emptyChild != null)
-            {
-                bool isFilled = i < KeyCount;
+            bool isFilled = i < KeyCount;
+
+            if (filledChild != null)
                 filledChild.gameObject.SetActive(isFilled);
+
+            if (emptyChild != null)
                 emptyChild.gameObject.SetActive(!isFilled);
-            }
         }
     }
 }

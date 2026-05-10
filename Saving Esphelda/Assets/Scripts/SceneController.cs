@@ -50,19 +50,21 @@ public class SceneController : MonoBehaviour
 
     public void LoadOverworldFromLevel()
     {
+        SavePlayerInventory();
         previousScene = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("Overworld");
     }
 
     private void HandleCompleteState()
     {
+        SavePlayerInventory();
         int index = SceneManager.GetActiveScene().buildIndex;
         int nextIndex = index + 1;
 
         if (nextIndex < SceneManager.sceneCountInBuildSettings)
         {
             Debug.Log($"Loading next scene: {nextIndex}");
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(nextIndex);
         }
         else
         {
@@ -123,21 +125,37 @@ public class SceneController : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null) return;
 
-        //only set spawn position for Overworld; levels use their default positions
         if (currentSceneName == "Overworld")
         {
-            Vector3 spawnPosition = GetOverworldSpawnPosition(previousScene);
-            player.transform.position = spawnPosition;
-            Debug.Log($"Spawned player at {spawnPosition} in Overworld coming from {previousScene}");
+            string safeScene = string.IsNullOrEmpty(previousScene)
+    ? "Overworld_Default"
+    : previousScene;
+
+          //  Vector3 spawnPosition = GetOverworldSpawnPosition(safeScene);
+          //  player.transform.position = spawnPosition;
+          //  Debug.Log($"Spawned player at {spawnPosition} in Overworld coming from {previousScene}");
         }
+        else
+{
+    GameObject spawn = GameObject.FindWithTag("PlayerSpawn");
+
+    if (spawn != null)
+    {
+        player.transform.position = spawn.transform.position;
     }
+    else
+    {
+        Debug.LogWarning("No spawn found → using fallback (0,0,0)");
+        player.transform.position = Vector3.zero;
+    }
+}}
 
     public void SetPreviousScene(string sceneName)
     {
         previousScene = sceneName;
     }
 
-    private Vector3 GetOverworldSpawnPosition(string fromLevel)
+   /** private Vector3 GetOverworldSpawnPosition(string fromLevel)
     {
         string tag;
         switch (fromLevel)
@@ -166,8 +184,8 @@ public class SceneController : MonoBehaviour
         }
 
         Debug.LogWarning($"No overworld spawn object found with tag '{tag}'. Using default position.");
-        return Vector3.zero; 
-    }
+        return Vector3.zero;
+    } **/
 
     void Start()
     {
@@ -184,13 +202,15 @@ public class SceneController : MonoBehaviour
 
     public void HandlePlayerDeath()
     {
-        Debug.Log("Player has died!");        
+        Debug.Log("Player has died!");
         //reload the current scene after a short delay to allow death animation/sound to play
         Invoke(nameof(ReloadCurrentScene), 2f);
     }
 
     private void ReloadCurrentScene()
     {
+        previousScene = "";
+        SavePlayerInventory();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -198,4 +218,28 @@ public class SceneController : MonoBehaviour
     {
 
     }
+
+    private void SavePlayerInventory()
+    {
+        PlayerInventory playerInventory = UnityEngine.Object.FindFirstObjectByType<PlayerInventory>();
+        if (playerInventory != null)
+        {
+            playerInventory.SaveInventory();
+            Debug.Log("PlayerInventory saved before scene change.");
+        }
+        else
+        {
+            Debug.LogWarning("PlayerInventory not found. Could not save inventory before scene change.");
+        }
+    }
+
+    public void ExitLevelToOverworld()
+    {
+        previousScene = SceneManager.GetActiveScene().name;
+
+        Debug.Log("Exiting level early → Overworld");
+
+        SceneManager.LoadScene("Overworld");
+    }
+
 }

@@ -30,12 +30,12 @@ public class LevelEndManager : MonoBehaviour
                 Debug.LogError("SaveManager.Load returned null for slot: " + slot);
                 return;
             }
-            data.keys += PlayerInventory.KeyCount;
-            data.gems += PlayerInventory.GemCount;
+            data.keys = PlayerInventory.KeyCount;
+            data.gems = PlayerInventory.GemCount;
             var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             var sceneName = SceneManager.GetActiveScene().name;
             if (sceneName == "Tutorial_Level") currentSceneIndex = 3;
-            data.nextLevel = currentSceneIndex + 1;
+            data.nextLevel = Mathf.Max(data.nextLevel, currentSceneIndex + 1);
             if (!data.levelsCompleted.Contains(currentSceneIndex))
             {
                 data.levelsCompleted.Add(currentSceneIndex);
@@ -44,7 +44,11 @@ public class LevelEndManager : MonoBehaviour
 
             if (SceneController.Instance.CurrentGameState != SceneController.GameState.Active) return;
             Debug.Log("Checkpoint detected!");
-            SceneController.Instance.SetGameState(SceneController.GameState.Complete);
+            SaveManager.Save(slot, data);
+
+            //always go to overworld after level
+            SceneManager.LoadScene("Overworld");
+            return;
         }
 
     }

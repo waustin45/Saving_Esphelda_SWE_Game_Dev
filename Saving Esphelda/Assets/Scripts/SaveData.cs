@@ -12,7 +12,7 @@ public class SaveData
 
 public static class SaveManager
 {
-    private static string SavePath(int slot) => 
+    private static string SavePath(int slot) =>
         Application.persistentDataPath + "/save_slot_" + slot + ".json";
 
     public static void Save(int slot, SaveData data)
@@ -24,18 +24,20 @@ public static class SaveManager
     public static SaveData Load(int slot)
     {
         string path = SavePath(slot);
-        Debug.Log(path + " this is the path from  overworld");
-        Debug.Log("File exists: " + File.Exists(path));
 
         if (File.Exists(path))
         {
             string json = File.ReadAllText(path);
-            Debug.Log("JSON contents: " + json);
+
+            if (string.IsNullOrEmpty(json))
+            {
+                Debug.LogWarning("Save file empty, creating new.");
+                return CreateNewSave();
+            }
+
             return JsonUtility.FromJson<SaveData>(json);
         }
 
-        // Return fresh save data if no file exists
-        Debug.Log("No save found, returning new save");
         return CreateNewSave();
     }
     // ---- Check if slot has a save ----
@@ -57,12 +59,10 @@ public static class SaveManager
 
     // ---- Fresh save defaults ----
     public static SaveData CreateNewSave()
-    {
-        SaveData data = new SaveData();
-        data.keys = 0;
-        data.gems = 0;
-        data.nextLevel = 0;
-        data.levelsCompleted = new List<int>{4}; // adjust 10 to your total level count
-        return data;
-    }
+{
+    SaveData data = new SaveData();
+    data.nextLevel = 1;
+    data.levelsCompleted = new List<int>();
+    return data;
+}
 }

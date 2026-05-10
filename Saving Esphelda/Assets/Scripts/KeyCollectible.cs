@@ -8,28 +8,29 @@ public class KeyCollectible : MonoBehaviour
     [Header("Inventory")]
     public PlayerInventory inventory;
     private bool IsCollected = false;
+    public string keyID;
 
     void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.gameObject.CompareTag("Player") && !IsCollected)
     {
-        if (other.gameObject.CompareTag("Player") && !IsCollected)
+        if (PlayerInventory.HasCollectedKey(keyID))
         {
-            if (inventory == null)
-            {
-                Debug.LogWarning("KeyCollectible: inventory reference is not set.");
-                return;
-            }
-
-            Debug.Log("Collectible collected!");
-            inventory.AddKey();
-            IsCollected = true;
-
-            //hide the key immediately so it appears collected faster.
-            SetCollectedVisualState();
-            PlayCollectSound();
-
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject);
+            return;
         }
+
+        inventory.AddKey();
+
+        PlayerInventory.MarkKeyCollected(keyID);
+
+        IsCollected = true;
+        SetCollectedVisualState();
+        PlayCollectSound();
+
+        Destroy(gameObject, 0.1f);
     }
+}
 
     private void SetCollectedVisualState()
     {

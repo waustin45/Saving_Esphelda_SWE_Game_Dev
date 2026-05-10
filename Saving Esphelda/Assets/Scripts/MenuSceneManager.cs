@@ -9,6 +9,10 @@ public class MenuSceneManager : MonoBehaviour
     {
         
     }
+    public void LoadTitleScene()
+    {
+        SceneManager.LoadScene("Title_Scene");
+    }
     public void LoadTutorialQuestionScene()
     {
         SceneManager.LoadScene("TutorialQuestionScene");

@@ -13,6 +13,9 @@ TagManager:
   - L1 Portal
   - L2 Portal
   - L3 Portal
+  - Esphelda
+  - DoorLock
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX

@@ -6,25 +6,25 @@ public static class SaveManagerPrefs
 {
     public static void SaveCurrency(int keys, int gems)
     {
-        PlayerPrefs.SetInt("Keys", keys);
-        PlayerPrefs.SetInt("Gems", gems);
+        PlayerPrefs.SetInt("PlayerKeyCount", keys);
+        PlayerPrefs.SetInt("PlayerGemCount", gems);
         PlayerPrefs.Save();
     }
 
     public static int LoadKeys()
     {
-        return PlayerPrefs.GetInt("Keys", 0); // 0 is default
+        return PlayerPrefs.GetInt("PlayerKeyCount", 0); // 0 is default
     }
 
     public static int LoadGems()
     {
-        return PlayerPrefs.GetInt("Gems", 0);
+        return PlayerPrefs.GetInt("PlayerGemCount", 0);
     }
 
     // ---- Levels ----
     public static void SaveLevelCompleted(int levelIndex)
     {
-        PlayerPrefs.SetInt("Level_" + levelIndex + "_Completed", 4);
+        PlayerPrefs.SetInt("Level_" + levelIndex + "_Completed", 1);
         PlayerPrefs.SetInt("NextLevel", levelIndex + 1);
         PlayerPrefs.Save();
     }
@@ -61,7 +61,7 @@ public static class SaveManagerPrefs
         }
     }
 
-        public static bool IsLevelUnlocked(int levelIndex)
+    public static bool IsLevelUnlocked(int levelIndex)
     {
         if (levelIndex == 4) return true; // First level always unlocked
         return IsLevelCompleted(levelIndex - 1); // Unlock if previous level completed

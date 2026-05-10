@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public PlayerHealth playerHealth; 
-    public int damage = 2; 
+    [SerializeField] private PlayerHealth playerHealth;
+    public int damage = 2;
+
 
 
     private void OnCollisionEnter2D(Collision2D collision)
