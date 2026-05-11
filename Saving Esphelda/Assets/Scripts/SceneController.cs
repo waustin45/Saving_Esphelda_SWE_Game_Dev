@@ -95,30 +95,56 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    private IEnumerator SpawnPlayerWhenReady(string currentSceneName)
+private IEnumerator SpawnPlayerWhenReady(string currentSceneName)
+{
+    yield return new WaitForSeconds(0.1f);
+
+    float timeout = 1f;
+    float elapsed = 0f;
+    GameObject player = null;
+
+    while (player == null && elapsed < timeout)
     {
-        float timeout = 1f;
-        float elapsed = 0f;
-        GameObject player = null;
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null) break;
 
-        while (player == null && elapsed < timeout)
-        {
-            player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null) break;
-
-            yield return null;
-            elapsed += Time.deltaTime;
-        }
-
-        if (player == null)
-        {
-            Debug.LogWarning($"SceneController: Unable to find Player in scene '{currentSceneName}' after load.");
-            yield break;
-        }
-
-        SetPlayerSpawnPoint(currentSceneName);
-        SetGameState(GameState.Active);
+        yield return null;
+        elapsed += Time.deltaTime;
     }
+
+    if (player == null)
+    {
+        Debug.LogWarning($"SceneController: Unable to find Player in scene '{currentSceneName}' after load.");
+        yield break;
+    }
+    SceneManager.MoveGameObjectToScene(player, SceneManager.GetActiveScene());
+
+    // Hide player and freeze physics immediately
+    Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+    if (rb != null)
+    {
+        rb.gravityScale = 0;
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    // Hide all renderers on the player
+    foreach (var renderer in player.GetComponentsInChildren<Renderer>())
+    {
+        renderer.enabled = false;
+    }
+
+    SetPlayerSpawnPoint(currentSceneName);
+
+    // Restore everything
+    if (rb != null) rb.gravityScale = 1;
+
+    foreach (var renderer in player.GetComponentsInChildren<Renderer>())
+    {
+        renderer.enabled = true;
+    }
+
+    SetGameState(GameState.Active);
+}
 
     private void SetPlayerSpawnPoint(string currentSceneName)
     {
@@ -131,61 +157,62 @@ public class SceneController : MonoBehaviour
     ? "Overworld_Default"
     : previousScene;
 
-          //  Vector3 spawnPosition = GetOverworldSpawnPosition(safeScene);
-          //  player.transform.position = spawnPosition;
-          //  Debug.Log($"Spawned player at {spawnPosition} in Overworld coming from {previousScene}");
+            //  Vector3 spawnPosition = GetOverworldSpawnPosition(safeScene);
+            //  player.transform.position = spawnPosition;
+            //  Debug.Log($"Spawned player at {spawnPosition} in Overworld coming from {previousScene}");
         }
         else
-{
-    GameObject spawn = GameObject.FindWithTag("PlayerSpawn");
+        {
+            GameObject spawn = GameObject.FindWithTag("PlayerSpawn");
 
-    if (spawn != null)
-    {
-        player.transform.position = spawn.transform.position;
+            if (spawn != null)
+            {
+                player.transform.position = spawn.transform.position;
+            }
+            else
+            {
+                Debug.LogWarning("No spawn found → using fallback (0,0,0)");
+                player.transform.position = Vector3.zero;
+            }
+        }
     }
-    else
-    {
-        Debug.LogWarning("No spawn found → using fallback (0,0,0)");
-        player.transform.position = Vector3.zero;
-    }
-}}
 
     public void SetPreviousScene(string sceneName)
     {
         previousScene = sceneName;
     }
 
-   /** private Vector3 GetOverworldSpawnPosition(string fromLevel)
-    {
-        string tag;
-        switch (fromLevel)
-        {
-            case "Tutorial_Scene":
-                tag = "L1 Portal";
-                break;
-            case "Level_One":
-                tag = "L2 Portal";
-                break;
-            case "Level_Two":
-                tag = "L3 Portal";
-                break;
-            case "Level_Three":
-                tag = "L3 Portal";
-                break;
-            default:
-                Debug.LogWarning($"Unknown level source '{fromLevel}' for overworld spawn. Using default position.");
-                return Vector3.zero;
-        }
+    /** private Vector3 GetOverworldSpawnPosition(string fromLevel)
+     {
+         string tag;
+         switch (fromLevel)
+         {
+             case "Tutorial_Scene":
+                 tag = "L1 Portal";
+                 break;
+             case "Level_One":
+                 tag = "L2 Portal";
+                 break;
+             case "Level_Two":
+                 tag = "L3 Portal";
+                 break;
+             case "Level_Three":
+                 tag = "L3 Portal";
+                 break;
+             default:
+                 Debug.LogWarning($"Unknown level source '{fromLevel}' for overworld spawn. Using default position.");
+                 return Vector3.zero;
+         }
 
-        GameObject spawnObj = GameObject.FindGameObjectWithTag(tag);
-        if (spawnObj != null)
-        {
-            return spawnObj.transform.position;
-        }
+         GameObject spawnObj = GameObject.FindGameObjectWithTag(tag);
+         if (spawnObj != null)
+         {
+             return spawnObj.transform.position;
+         }
 
-        Debug.LogWarning($"No overworld spawn object found with tag '{tag}'. Using default position.");
-        return Vector3.zero;
-    } **/
+         Debug.LogWarning($"No overworld spawn object found with tag '{tag}'. Using default position.");
+         return Vector3.zero;
+     } **/
 
     void Start()
     {
